@@ -17,7 +17,8 @@
         android:id="@+id/vector_drawable_cpu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/vector_drawable_cpu" />
+        app:srcCompat="@drawable/orco_contact"
+        tools:ignore="MissingPrefix" />
 
     <ImageView
         android:id="@+id/vector_drawable_cpu_ani"
@@ -25,7 +26,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@id/vector_drawable_cpu"
-        app:srcCompat="@drawable/animated_cpu" />
+        app:srcCompat="@drawable/animated_cpu"
+        tools:ignore="MissingPrefix" />
 
     <TextView
         android:id="@+id/status_text_view"
